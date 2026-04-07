@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Naman 👀</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&family=Cinzel:wght@500;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body {margin:0;font-family:'Outfit',sans-serif;color:#fff;overflow-x:hidden;}
+.section {min-height:100vh;display:flex;flex-direction:column;justify-content:center;padding:60px 10%;position:relative;opacity:0;transform:translateY(40px);transition:all 1s ease;}
+.section.show{opacity:1;transform:translateY(0);}
+/* Specifically for the reveal section to stay hidden until clicked */
+#onePieceRevealSection { display: none; }
+#onePieceRevealSection.active { display: flex; opacity: 1; transform: translateY(0); }
+
+.bg {position:absolute;top:0;left:0;right:0;bottom:0;background-size:cover;background-position:center;filter:brightness(0.4);z-index:0;}
+.content {position:relative;z-index:1;max-width:900px;}
+h1,h2 {font-family:'Cinzel',serif;font-size:clamp(34px,5vw,64px);}
+p {font-size:clamp(17px,2vw,22px);line-height:1.9;}
+.button {margin-top:20px;padding:12px 20px;background:white;color:black;border-radius:30px;cursor:pointer;display:inline-block;text-decoration:none;font-weight:500;}
+.music{position:fixed;top:20px;right:20px;background:black;padding:10px 15px;border-radius:20px;cursor:pointer;z-index:10;}
+.secret{position:fixed;bottom:20px;right:20px;font-size:12px;opacity:0.5;cursor:pointer;}
+</style>
+</head>
+<body>
+
+<div class="music" onclick="toggleMusic()">🎵 play-if-you-want-to</div>
+<div class="secret" onclick="alert('ok you found it… now you owe me a reply 😌')">don’t click this</div>
+
+<audio id="music" loop>
+<source src="https://files.catbox.moe/xue6xr.mp3" type="audio/mpeg">
+</audio>
+
+<div class="section">
+  <div class="bg" style="background-image:url('https://wallpapers.com/images/featured/deadpool-tzhfez1w8ud2z8aw.jpg');"></div>
+  <div class="content">
+    <h1>Hello ma’am ;)</h1>
+    <p>
+    Looks like you asked about something but don’t you worry… I’ve got all the answers here.
+    <br><br>
+    And yeah… this might be a little different than what you expected.
+    </p>
+  </div>
+</div>
+
+<div class="section">
+  <div class="bg" style="background-image:url('https://i.ytimg.com/vi/Iht75-LF7mE/maxresdefault.jpg');"></div>
+  <div class="content">
+    <h2>Let’s start simple</h2>
+    <p>
+    Height: 5'8-5'9
+    <br><br>
+    Height I love in case of my partner: 4'11-5'6
+    <br><br>
+    Reason: I just love height differences (AND OF COURSE IF THE HEIGHT IS SAME IM FINE WITH IT)
+    <br><br>
+    Fav color: white
+    <br><br> 
+    Fav book: Chasing red
+    <br><br>
+    Fav thing to do: bedrotting xD 
+    </p>
+  </div>
+</div>
+
+<div class="section">
+  <div class="bg" style="background-image:url('https://i.pinimg.com/originals/00/29/68/0029683aad5d3c861b621dc1036113af.png');"></div>
+  <div class="content">
+    <h2>My taste in girls 😁</h2>
+    <p>
+    1. Idk about character traits but I'd say I love if she talk about herself like I'm doing here, ofc not expecting it to be this detailed and if she goes this detailed, I'm just gonna gatekeep you remember this 😏
+    <br><br>
+    2. I am a gujju guy and I just love garba, so whether if you know or you don't we're gonna go to garba nights and don't you worry if you don't know how to play I've got your back, I'll teach you that's gonna be even better if you don't know.
+    <br><br>
+    3. Don't know how to cook food?(again even better) say less girl🫷🏻, I'm here to cook for you whatever you want.
+    <br><br>
+    4. An outfit which makes me fall on ground- A baggie hoodie on top (maybe mine hehe), having short hairs (bonus ofc), having shorts at bottom...I'm ded if I ever see this combo
+</p>
+  </div>
+</div>
+
+<div class="section">
+  <div class="bg" style="background-image:url('https://i.redd.it/1jzqs2litdka1.jpg');"></div>
+  <div class="content">
+    <h2>What I watch 🎬</h2>
+    <p>
+    My fav genre in movies: rom-com, thriller, murder mystery, detective thriller.
+    <br><br>
+    Fav movie: Luv ni love storys (yes a gujarati movie)
+    <br><br>
+    Fav series: broken but beautiful, hostel daze, college romance, I'm mature, flames
+    <br><br>
+    Fav sitcom: F.R.I.E.N.D.S, How I met your mother.
+       <br><br>
+      Fav Actress - Kritiiii Sanon 😭
+    </p>
+  </div>
+</div>
+
+<div class="section">
+  <div class="bg" style="background-image:url('https://i.ytimg.com/vi/iESNfDRJiLs/hqdefault.jpg');"></div>
+  <div class="content">
+    <h2>Food 🍛</h2>
+    <p>
+    Comfort food- dahi bhindi, aloo pyaaz ki sabzi with bhakhri, khichdi with chaas ya fir 2 papad
+    <br><br>
+    Fav food- Manchurian, Aloo parathe
+       <br><br>
+      Fav dessert - Rasgulle,biscoff cheesecake,brownie with ice cream (yes I'm having less spice tolerence)
+      <br><br>
+    But yes I'll eat whatever you make hehe
+      
+    </p>
+  </div>
+</div>
+
+<div class="section">
+  <div class="bg" style="background-image:url('https://media1.popsugar-assets.com/files/thumbor/qoOJ4nOAJUa4WxtIDzKqkV7M_1E=/0x0:3840x1912/3840x1912/top/filters:format_auto():quality(85):extract_cover()/2022/09/23/787/n/1922283/f637a732632df2b0c2cc33.68172821_.jpg');"></div>
+  <div class="content">
+    <h2>Hobbies & Music 🎧</h2>
+    <p>
+    mostly just bingewatching or writing shayari or poetry or writing paragraphs for you 😏😉
+    <br><br>
+    Music taste- 90s songs of kishore da,lata didi...00s songs of shaan, atif,shreya, sonu... latest songs of shirley setia,arpit bala mitraz and many more ofc.
+    <br><br>
+    Love cooking whether its early morning nashta or 2 am brownie craving of yours
+    <br><br>
+    A little gaming here and there (and yes I'll pick up your phone in middle of game- know your position in priority list)
+    </p>
+  </div>
+</div>
+
+<div class="section">
+  <div class="bg" style="background-image:url('https://i.kym-cdn.com/photos/images/newsfeed/003/107/283/053.jpg');"></div>
+  <div class="content">
+    <h2>Personality 🧠</h2>
+    <p>
+    Are you an introvert or extrovert? coz im hell introvert 😭
+    <br><br>
+    but hey dont judge me by my long ass paras I'm typing here, I'm more of a chat person T_T.
+       <br><br>
+      I am a listener...a good listener..just yap I'm down to listen whatever you say.
+       <br><br>
+      I might forget to compliment you about your new outfit, but I am hella big observer, I'll have everything in my mind from your new jhumkas to your new sneakers.
+       <br><br>
+      I just won't mind at all if you steal my hoodie (in fact me hu khud de dunga samne se) but just return it back when I need..🥲
+    </p>
+  </div>
+</div>
+
+<div class="section">
+  <div class="bg" style="background-image:url('https://images6.alphacoders.com/140/1403576.png');"></div>
+  <div class="content">
+    <h2>Important question 🎌</h2>
+    <p>
+    Wait, Did you say anime? whaaaattt? you watch anime?
+    <br><br>
+    whaaaaaaaaaattttt you watch one piece!!!!!!
+    </p>
+    <a class="button" href="javascript:void(0)" onclick="revealOnePiece()">in that case click here</a>
+  </div>
+</div>
+
+<div class="section" id="onePieceRevealSection">
+  <div class="bg" style="background-image:url('https://cdn.wallpapersafari.com/58/27/psl9Hq.jpg');"></div>
+  <div class="content">
+      <h2>WHAAAAAAATTTTT 😭</h2>
+      <p>
+      FR!!!!!!!!  
+      <br><br>
+       At this point you don’t even need to impress me anymore...
+      <br><br>
+      I'm already down mohtarma.
+      </p>
+  </div>
+</div>
+
+<div class="section">
+  <div class="bg" style="background-image:url('https://i.ytimg.com/vi/43rCoIFrmqg/maxresdefault.jpg');"></div>
+  <div class="content">
+    <h2>Ideal date 🌅</h2>
+    <p>
+    ideal date for me- starting from afternoon, having a lunch and then maybe we go to mall or clothing store where you can show me good clothes (trying on you ofc) and maybe you can choose something for me as well.
+    <br><br>
+    then heading somewhere to watch sunset together, later we go for maybe a movie and then a dinner of any cuisine you like.
+    <br><br>
+    lastly ending the day with a late night walk, hand in hand (bonus if you let me play kishore da songs)
+    </p>
+  </div>
+</div>
+
+<div class="section">
+  <div class="bg" style="background-image:url('https://m.media-amazon.com/images/M/MV5BMmY4ZmMyMGMtZjhiYi00YTgyLWIxMjgtYmVjMDlhYTc1ODJiXkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_QL75_UX500_CR0,0,500,281_.jpg');"></div>
+  <div class="content">
+    <h2>Something I manifest ✨</h2>
+    <p>
+    you (ofc my partner) coming home after a long hard day, im in kitchen cooking food for her.
+    <br><br>
+    she get freshen up and come to kitchen give me hug from back and then sit on the kitchen countertop while im making food for you
+    <br><br>
+    and start talking about your whole day with "pata hai aaj kya hua?" aur me bas sunta rahu nod karu.
+    <br><br>
+    aur fir "dekho namak to thik haina?" ke bahane thoda taste karvaun (knowing already salt is perfect but just to feed you first bite 😌) Yeah yeah I'm that hopeless romantic guy
+    </p>
+  </div>
+</div>
+
+<script>
+const sections = document.querySelectorAll('.section');
+window.addEventListener('scroll', ()=>{
+ sections.forEach(sec=>{
+  const top = sec.getBoundingClientRect().top;
+  if(top < window.innerHeight - 100){sec.classList.add('show');}
+ })
+});
+
+function toggleMusic(){
+ const music=document.getElementById('music');
+ if(music.paused){
+   music.play();
+ } else {
+   music.pause();
+ }
+}
+
+function revealOnePiece(){
+ const revealBlock = document.getElementById('onePieceRevealSection');
+ revealBlock.classList.add('active'); // Makes the section appear
+ revealBlock.classList.add('show');   // Triggers the slide-up animation
+ 
+ // Smooth scrolls the user to the new section
+ revealBlock.scrollIntoView({ behavior: 'smooth' });
+}
+</script>
+
+<script>
+const texts = document.querySelectorAll('p');
+texts.forEach(p=>{
+ p.innerHTML = p.innerHTML.replace(/Kishore da/g, '<span style="text-decoration:underline;cursor:pointer" onclick="alert(\'good taste 👀\')">Kishore da</span>');
+});
+</script>
+
+</body>
+</html>
